@@ -1365,8 +1365,8 @@ namespace acommon {
 #  define REPL     "<lang>.prepl"
 #else
 #  define HOME_DIR "<$HOME|./>"
-#  define PERSONAL ".aspell.<lang>.pws"
-#  define REPL     ".aspell.<lang>.prepl"
+#  define PERSONAL ".cache/.aspell.<lang>.pws"
+#  define REPL     ".cache/.aspell.<lang>.prepl"
 #endif
 
   static const KeyInfo config_keys[] = {
